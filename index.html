@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form Validation</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="heading">Form Validation</h1>
+        <hr>
+        <br>
+        <form action="msg.html" onsubmit="return validate()">
+            <div class="label">
+                <label for="">Full Name:</label><br>
+                <input type="text"  class="" id="name" placeholder="enter a name">
+                <span id="namee"></span>
+            </div>
+            <br>
+            <div class="label">
+                <label for="">Select Gender:</label>
+                <select name="gender" id="gender">
+                    <option value="">select</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+                <!-- <label for="male">Male</label>
+                <input type="radio" name="gender" id="male" value="male">
+                <label for="female">Female</label>
+                <input type="radio" name="gender" id="female" value="female">
+                <label for="other">Other</label>
+                <input type="radio" name="gender" id="other" value="other"> -->
+            </div>
+            <br>
+            <div class="label">
+                <label for="">Email:</label><br>
+                <input type="text" class="" id="email" placeholder="enter a email">
+                <span id="emaill"></span>
+            </div>
+            <br>
+            <div class="label">
+                <label for="">MobileNo:</label><br>
+                <input type="text"  class="" id="number" placeholder="enter a number">
+                <span id="numberr"></span>
+            </div>
+            <br>
+            <div class="label">
+                <label for="">Username:</label><br>
+                <input type="text"  class="" id="Username" placeholder="enter a Username">
+                <span id="Usernamee"></span>
+            </div>
+            <br>
+            <div class="label">
+                <label for="">Password:</label><br>
+                <input type="text"  class="" id="password" placeholder="enter a Password" value="">
+                <span id="passwordd"></span>
+            </div>
+            <br>
+            <div class="label">
+                <label for="">Confirm Password:</label><br>
+                <input type="text"  class="" id="conpassword" placeholder="enter a Confirm Password" value="">
+                <span id="conpasswordd"></span>
+            </div>
+            <br>
+            <button id="btn" type="submit" >Submit</button>
+
+
+
+        </form>
+    </div>
+
+
+
+
+    <script src="script1.js"></script>
+</body>
+
+</html>
